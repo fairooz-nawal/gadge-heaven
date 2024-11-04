@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "Apple MacBook Pro 14",
+      "price": 1299,
+      "image": "https://brotherselectronicsbd.com/image/cache/catalog/demo/Laptop/MacbookPro%20M2%20Pro/MacPro14M2-spg-800x800.png"
+    },
+    {
+      "id": 2,
+      "name": "Dell XPS 13",
+      "price": 999,
+      "image": "https://www.ryans.com/storage/products/main/dell-xps-13-plus-9320-intel-core-i7-1260p-134-11680079670.webp"
+    },
+    {
+      "id": 3,
+      "name": "HP Spectre x360",
+      "price": 1199,
+      "image": "https://www.lifewire.com/thmb/3aAR7E4q7mxOPeXXUxR1bXX2ZA8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HPSpectrex36014inch2-in-1LaptopPC_Front_WhiteBG-87549c8bfc054602a0dcd7ddd3c9a1b0.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy S23 Ultra",
+      "price": 1199,
+      "image": "https://skit.ng/wp-content/uploads/2023/05/Samsung-Galaxy-S23-Ultra-5G-12GB-512GB-Skit-Store.jpg"
+    },
+    {
+      "id": 5,
+      "name": "iPhone 14 Pro Max",
+      "price": 1099,
+      "image": "https://i.ebayimg.com/images/g/cwEAAOSwJ~NjGayy/s-l400.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Google Pixel 7 Pro",
+      "price": 899,
+      "image": "https://www.digitaltrends.com/wp-content/uploads/2024/08/Pixel-9-pro-vs-pixel-7-pro.jpg?resize=1000%2C600&p=1"
+    },
+    {
+      "id": 7,
+      "name": "Apple Watch Series 8",
+      "price": 399,
+      "image": "https://www.lifewire.com/thmb/2dltniIDnxM2l9dMbchrLGaIoSI=/1500x0/filters:no_upscale():max_bytes(200000):strip_icc()/apple-watch-series-8-fe15b07f58554ea5a5846dcef32d7839.png"
+    },
+    {
+      "id": 8,
+      "name": "Samsung Galaxy Watch 5",
+      "price": 279,
+      "image": "https://diamu.com.bd/wp-content/uploads/2022/09/Samsung-Galaxy-Watch-5.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Fitbit Versa 4",
+      "price": 229,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2eT90vHf0sgaJIgZdVviCaJ4tPcSuaF221g&s"
+    }
+  ]
+  
