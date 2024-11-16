@@ -2,7 +2,8 @@ import banner from "../../../assets/banner.jpg"
 
 const Banner = () => {
     return (
-        <div className="relative bg-white h-[650px] lg:h-[994px]">
+        <div className="
+         relative bg-white h-[650px] lg:h-[994px]">
             <div className="hero bg-[#9538E2] text-white p-5 lg:px-36 rounded-b-lg h-[500px] lg:h-[694px]">
                 <div className="hero-content text-center">
                     <div className="max-w-xs lg:max-w-4xl lg:max-h-[500px] absolute top-3 lg:top-10 space-y-1">

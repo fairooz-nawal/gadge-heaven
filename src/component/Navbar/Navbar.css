@@ -1,0 +1,14 @@
+#navlink a.active{
+    background: white;
+    color: #9538E2;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 500;
+  }
+#navlink a.pending{
+    background: #9538E2;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+  }

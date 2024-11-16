@@ -1,9 +1,10 @@
 import React from 'react';
-
+import StatisticsBanner from '../StatisticBanner/StatisticsBanner';
 const Statistics = () => {
     return (
         <div>
-            this is satistics
+            <StatisticsBanner></StatisticsBanner>
+            
         </div>
     );
 };

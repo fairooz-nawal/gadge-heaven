@@ -3,9 +3,9 @@ import Banner from "../banner/Banner";
 const Header = () => {
     return (
         <>
-        <div className="p-5 bg-white">
+        <div className="pt-5 px-5 bg-white">
         <Navbar></Navbar>
-        <Banner></Banner>
+        
         </div>
           
         </>

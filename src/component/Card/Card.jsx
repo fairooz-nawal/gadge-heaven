@@ -1,11 +1,11 @@
-import React from 'react';
 
+import { Link } from 'react-router-dom';
 const Card = ({card}) => {
-   const {name,price,image} = card;
+   const {id,name,price,image} = card;
     return (
         <div>
-            <div className="card bg-gray-100 w-96 shadow-xl">
-                <div className="h-[300px] px-10 pt-10">
+            <div className="max-w-[350px] bg-gray-200 shadow-xl">
+                <div className="h-[250px] px-10 pt-10">
                     <img
                         className="w-full h-full rounded-xl"
                         src={image}
@@ -15,7 +15,7 @@ const Card = ({card}) => {
                     <h2 className="card-title">{name}</h2>
                     <p>Price:{price}k</p>
                     <div className="card-actions">
-                        <button className="btn border-2 border-[#9538E2] rounded-full text-[#9538E2] bg-white">View Detail</button>
+                        <Link className="btn border-2 border-[#9538E2] rounded-full text-[#9538E2] bg-white" to={`/product/${id}`}>View Detail</Link>
                     </div>
                 </div>
             </div>

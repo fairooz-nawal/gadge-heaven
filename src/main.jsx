@@ -10,6 +10,10 @@ import './index.css'
 import MainContainer from './component/mainContainer/MainContainer';
 import ErrorPage from './component/ErrorPage/ErrorPage';
 import Home from './component/home/Home';
+import Product from './component/Product/Product';
+import { ApiProvider } from './component/ContextAPI/ContextApi';
+import AddCart from './component/AddCart/AddCart';
+import WishCart from './component/WishCart/WishCart';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,7 +22,7 @@ const router = createBrowserRouter([
     children:[
       {
         path:"/",
-        element:<Home/>
+        element:<Home/>,
       },
       {
         path: "/statistic",
@@ -26,16 +30,40 @@ const router = createBrowserRouter([
       },
       {
         path: "/dashBoard",
-        element: <DashBoard/>
-      }
-      
+        element: <DashBoard/>,
+        children:[
+          {
+            path:"/dashBoard",
+            element: <AddCart/>
+         },
+          {
+            path:"/dashBoard/cart",
+            element: <AddCart/>
+         },
+          {
+            path:"/dashBoard/wishlist",
+            element: <WishCart/>
+         }
 
+        ]
+      },
+      {
+        path: "/brandname",
+        element: <DashBoard/>,  
+      },
+      {
+        path:"/product/:productId",
+        loader: ()=>fetch("../public/Fakedata.json"),
+        element: <Product/>
+      },
     ]
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
+    <ApiProvider>
+    <RouterProvider router={router} />
+    </ApiProvider> 
   </StrictMode>,
 )

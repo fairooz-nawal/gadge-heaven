@@ -3,7 +3,7 @@ import Footer from "../footer/Footer";
 import { Outlet } from "react-router-dom";
 const MainContainer = () => {
     return (
-        <div className="">
+        <div className="bg-white">
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>

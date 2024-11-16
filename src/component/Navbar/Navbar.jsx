@@ -1,18 +1,25 @@
 import { NavLink } from 'react-router-dom';
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaRegHeart } from "react-icons/fa";
-
+import './Navbar.css';
+<NavLink
+  to="/messages"
+  className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "active" : ""
+  }
+></NavLink>
 const Navbar = () => {
     const Link = <>
         <div className="lg:flex lg:gap-12">
-            <div className=""><NavLink to="/">Home</NavLink></div>
-            <div className=""><NavLink to="/statistic">Statistic</NavLink></div>
-            <div className=""> <NavLink to="/dashBoard">DashBoard</NavLink></div>
+            <div id="navlink" className="mb-3"><NavLink to="/" className="text-lg">Home</NavLink></div>
+            <div id="navlink" className="mb-3"><NavLink to="/statistic" className="text-lg">Statistic</NavLink></div>
+            <div id="navlink" className="mb-3"> <NavLink to="/dashBoard" className="text-lg">DashBoard</NavLink></div>
+            <div id="navlink" className="mb-3"> <NavLink to="/brandname" className="text-lg">Brand Name</NavLink></div>
         </div>
 
     </>
     return (
-        <div className="rounded-t-lg bg-[#9538E2] text-white lg:px-36">
+        <div className="max-w-[1540px] mx-auto rounded-t-lg bg-[#9538E2] text-white lg:px-10">
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -36,10 +43,10 @@ const Navbar = () => {
                             {Link}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+                    <a className="btn btn-ghost text-xl  lg:text-3xl">Gadget Heaven</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 ">
                         {Link}
                     </ul>
                 </div>

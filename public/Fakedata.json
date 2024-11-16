@@ -1,57 +1,148 @@
 [
-    {
-      "id": 1,
-      "name": "Apple MacBook Pro 14",
-      "price": 1299,
-      "image": "https://brotherselectronicsbd.com/image/cache/catalog/demo/Laptop/MacbookPro%20M2%20Pro/MacPro14M2-spg-800x800.png"
-    },
-    {
-      "id": 2,
-      "name": "Dell XPS 13",
-      "price": 999,
-      "image": "https://www.ryans.com/storage/products/main/dell-xps-13-plus-9320-intel-core-i7-1260p-134-11680079670.webp"
-    },
-    {
-      "id": 3,
-      "name": "HP Spectre x360",
-      "price": 1199,
-      "image": "https://www.lifewire.com/thmb/3aAR7E4q7mxOPeXXUxR1bXX2ZA8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HPSpectrex36014inch2-in-1LaptopPC_Front_WhiteBG-87549c8bfc054602a0dcd7ddd3c9a1b0.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Samsung Galaxy S23 Ultra",
-      "price": 1199,
-      "image": "https://skit.ng/wp-content/uploads/2023/05/Samsung-Galaxy-S23-Ultra-5G-12GB-512GB-Skit-Store.jpg"
-    },
-    {
-      "id": 5,
-      "name": "iPhone 14 Pro Max",
-      "price": 1099,
-      "image": "https://i.ebayimg.com/images/g/cwEAAOSwJ~NjGayy/s-l400.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Google Pixel 7 Pro",
-      "price": 899,
-      "image": "https://www.digitaltrends.com/wp-content/uploads/2024/08/Pixel-9-pro-vs-pixel-7-pro.jpg?resize=1000%2C600&p=1"
-    },
-    {
-      "id": 7,
-      "name": "Apple Watch Series 8",
-      "price": 399,
-      "image": "https://www.lifewire.com/thmb/2dltniIDnxM2l9dMbchrLGaIoSI=/1500x0/filters:no_upscale():max_bytes(200000):strip_icc()/apple-watch-series-8-fe15b07f58554ea5a5846dcef32d7839.png"
-    },
-    {
-      "id": 8,
-      "name": "Samsung Galaxy Watch 5",
-      "price": 279,
-      "image": "https://diamu.com.bd/wp-content/uploads/2022/09/Samsung-Galaxy-Watch-5.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Fitbit Versa 4",
-      "price": 229,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2eT90vHf0sgaJIgZdVviCaJ4tPcSuaF221g&s"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Apple MacBook Pro 14",
+    "price": 1299,
+    "image": "https://brotherselectronicsbd.com/image/cache/catalog/demo/Laptop/MacbookPro%20M2%20Pro/MacPro14M2-spg-800x800.png",
+    "category": "Laptop",
+    "description": "The Apple MacBook Pro 14-inch with M2 Pro chip, featuring powerful performance and a high-resolution display for professionals.",
+    "specification": [
+      "M2 Pro chip",
+      "14-inch Retina display",
+      "16GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Dell XPS 13",
+    "price": 999,
+    "image": "https://www.ryans.com/storage/products/main/dell-xps-13-plus-9320-intel-core-i7-1260p-134-11680079670.webp",
+    "category": "Laptop",
+    "description": "Dell XPS 13 is a compact and lightweight ultrabook with a sleek design and powerful Intel Core i7 processor.",
+    "specification": [
+      "Intel Core i7-1260P",
+      "13.4-inch FHD+ display",
+      "16GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 3,
+    "name": "HP Spectre x360",
+    "price": 1199,
+    "image": "https://www.lifewire.com/thmb/3aAR7E4q7mxOPeXXUxR1bXX2ZA8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HPSpectrex36014inch2-in-1LaptopPC_Front_WhiteBG-87549c8bfc054602a0dcd7ddd3c9a1b0.jpg",
+    "category": "Laptop",
+    "description": "HP Spectre x360 is a versatile 2-in-1 laptop with a 360-degree hinge, ideal for creative professionals and multitaskers.",
+    "specification": [
+      "Intel Core i7 processor",
+      "14-inch 4K display",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy S23 Ultra",
+    "price": 1199,
+    "image": "https://skit.ng/wp-content/uploads/2023/05/Samsung-Galaxy-S23-Ultra-5G-12GB-512GB-Skit-Store.jpg",
+    "category": "Smartphone",
+    "description": "Samsung Galaxy S23 Ultra, a flagship smartphone with advanced camera technology and powerful performance.",
+    "specification": [
+      "6.8-inch QHD+ display",
+      "12GB RAM",
+      "512GB storage",
+      "200MP quad-camera"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 5,
+    "name": "iPhone 14 Pro Max",
+    "price": 1099,
+    "image": "https://i.ebayimg.com/images/g/cwEAAOSwJ~NjGayy/s-l400.jpg",
+    "category": "Smartphone",
+    "description": "iPhone 14 Pro Max with A16 Bionic chip, offering superior performance and impressive camera features.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "6GB RAM",
+      "128GB storage",
+      "48MP triple-camera system"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "name": "Google Pixel 7 Pro",
+    "price": 899,
+    "image": "https://www.digitaltrends.com/wp-content/uploads/2024/08/Pixel-9-pro-vs-pixel-7-pro.jpg?resize=1000%2C600&p=1",
+    "category": "Smartphone",
+    "description": "Google Pixel 7 Pro with advanced AI features and a high-quality camera system powered by Google Tensor.",
+    "specification": [
+      "6.7-inch QHD+ OLED display",
+      "12GB RAM",
+      "128GB storage",
+      "50MP triple-camera"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 7,
+    "name": "Apple Watch Series 8",
+    "price": 399,
+    "image": "https://www.lifewire.com/thmb/2dltniIDnxM2l9dMbchrLGaIoSI=/1500x0/filters:no_upscale():max_bytes(200000):strip_icc()/apple-watch-series-8-fe15b07f58554ea5a5846dcef32d7839.png",
+    "category": "Smartwatch",
+    "description": "Apple Watch Series 8, a premium smartwatch with health and fitness tracking features.",
+    "specification": [
+      "41mm display",
+      "Heart rate and ECG monitor",
+      "GPS",
+      "Swimproof"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy Watch 5",
+    "price": 279,
+    "image": "https://diamu.com.bd/wp-content/uploads/2022/09/Samsung-Galaxy-Watch-5.jpg",
+    "category": "Smartwatch",
+    "description": "Samsung Galaxy Watch 5 with advanced health monitoring features and durable design.",
+    "specification": [
+      "40mm display",
+      "Heart rate monitor",
+      "Sleep tracking",
+      "GPS"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 9,
+    "name": "Fitbit Versa 4",
+    "price": 229,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2eT90vHf0sgaJIgZdVviCaJ4tPcSuaF221g&s",
+    "category": "Smartwatch",
+    "description": "Fitbit Versa 4, a reliable fitness smartwatch with comprehensive health and activity tracking features.",
+    "specification": [
+      "Heart rate monitor",
+      "Sleep tracking",
+      "GPS",
+      "Swimproof"
+    ],
+    "availability": false,
+    "rating": 4.4
+  }
+]
+
   
