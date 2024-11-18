@@ -1,4 +1,6 @@
 #sidelink a.active {
     background: #9538E2;
     color: white;
+    padding: 10px 40px;
+    border-radius: 5%;
   }

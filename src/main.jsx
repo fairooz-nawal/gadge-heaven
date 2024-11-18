@@ -14,6 +14,8 @@ import Product from './component/Product/Product';
 import { ApiProvider } from './component/ContextAPI/ContextApi';
 import AddCart from './component/AddCart/AddCart';
 import WishCart from './component/WishCart/WishCart';
+import Cards from './component/Cards/Cards';
+import Categories from './component/Categories/Categories';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +25,30 @@ const router = createBrowserRouter([
       {
         path:"/",
         element:<Home/>,
+        children:[
+          {
+            path:"/",
+            element:<Cards/>,
+          },
+          {
+            path:"/allproduct",
+            element:<Cards/>,
+          },
+          {
+            path:"/laptop",
+            element:<Categories/>,
+          },
+          {
+            path:"/phone",
+            element:<Categories/>,
+          },
+          {
+            path:"/smartwatch",
+            element:<Categories/>,
+          },
+
+         
+        ]
       },
       {
         path: "/statistic",

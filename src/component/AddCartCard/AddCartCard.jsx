@@ -1,5 +1,7 @@
-
+import React, { useContext } from "react";
+import { ContextApi } from "../ContextAPI/ContextApi";
 const AddCartCard = ({ info }) => {
+    const {handleDeleteproduct} = useContext(ContextApi);
     return (
         <div>
             <div className=""></div>
@@ -17,7 +19,7 @@ const AddCartCard = ({ info }) => {
                             <p className=" text-gray-600 text-xl font-bold">Price: ${info.price} </p>
                     </div>
                     <div className="card-actions justify-start">
-                            <button className="btn bg-purple-600 text-white" >Delete</button>
+                            <button className="btn bg-purple-600 text-white " onClick ={() => handleDeleteproduct(info.id)} >Delete</button>
                     </div>
                     </div>
                 </div>

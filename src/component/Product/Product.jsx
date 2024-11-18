@@ -4,7 +4,8 @@ import { FaRegHeart } from "react-icons/fa";
 import React, { useContext } from "react";
 import { ContextApi } from "../ContextAPI/ContextApi";
 const Product = () => {
-    const { handleSelectedproduct,handleWishproduct} = useContext(ContextApi);
+    const { handleSelectedproduct,handleWishproduct,handlestate,state} = useContext(ContextApi);
+    console.log(state);
     const data = useLoaderData();
     const { productId } = useParams();
     const info = data.find(product => product.id == productId);
@@ -36,7 +37,9 @@ const Product = () => {
                         <div className="text-base text-black font-bold"><Rate className="ml-2" defaultValue={Math.floor(info.rating)} /> {info.rating}</div>
                         <div className="card-actions justify-start">
                             <button className="btn bg-purple-600 text-white" onClick={()=>handleSelectedproduct(info.id)}>Add to Card</button>
-                            <button className="btn rounded-full bg-white text-black btn-outline" onClick={()=>handleWishproduct(info.id)}><FaRegHeart className="text-xl" /></button>
+                           {state ? <button  className="btn rounded-full bg-purple-900" disabled onClick={()=>handleWishproduct(info.id)}><FaRegHeart className="text-xl  rounded-lg text-black" /></button> : 
+
+                           <button  className="btn rounded-full bg-green-500 " onClick={()=>handleWishproduct(info.id)}><FaRegHeart className="text-xl rounded-lg  text-black" /></button>} 
                         </div>
                     </div>
                 </div>
