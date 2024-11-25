@@ -10,7 +10,7 @@ const Modal = () => {
      }
     return (
         <div>
-            <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
+            <dialog id="my_modal_5" className="modal modal-middle sm:modal-middle">
                 <div className="modal-box bg-white text-black">
                     <h3 className="font-bold text-lg">Do you want to purchase all the items?</h3>
                     <div className="modal-action">

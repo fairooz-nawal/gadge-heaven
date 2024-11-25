@@ -9,7 +9,7 @@ export const ApiProvider = ({ children }) => {
    const [state, setstate] = useState(false);
    const [category, setcategory] = useState([]);
    useEffect(() => {
-      fetch("../public/Fakedata.json")
+      fetch("../Fakedata.json")
          .then(res => res.json())
          .then(data => setFakeData(data))
    }, [])
@@ -36,9 +36,6 @@ export const ApiProvider = ({ children }) => {
    }
 
  
-  
-
-
    return (
       <>
          <ContextApi.Provider value={{ fakedata, handleSelectedproduct, selectedproduct, handleWishproduct, wishproduct, state, handleDeleteproduct,handleCategory,category,setSelectedproduct}}>{children}</ContextApi.Provider>
