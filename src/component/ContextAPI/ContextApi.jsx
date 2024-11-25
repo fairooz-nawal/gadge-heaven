@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react';
+
 export const ContextApi = createContext();
 
 export const ApiProvider = ({ children }) => {
@@ -34,11 +35,13 @@ export const ApiProvider = ({ children }) => {
       setcategory(items);
    }
 
-   console.log(category);
+ 
+  
+
 
    return (
       <>
-         <ContextApi.Provider value={{ fakedata, handleSelectedproduct, selectedproduct, handleWishproduct, wishproduct, state, handleDeleteproduct,handleCategory,category }}>{children}</ContextApi.Provider>
+         <ContextApi.Provider value={{ fakedata, handleSelectedproduct, selectedproduct, handleWishproduct, wishproduct, state, handleDeleteproduct,handleCategory,category,setSelectedproduct}}>{children}</ContextApi.Provider>
       </>
    )
 };
